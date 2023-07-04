@@ -3,9 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32929.387
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{7E99FF3B-9EF4-401C-AEF6-9A4A56F1BCD0}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{94A1FE0C-C352-49EF-A82B-A84CAC3CD78A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.Rest", "src\Tracker.Rest\Tracker.Rest.csproj", "{9F6E4342-9CB4-4EFA-98F6-143DF9C21173}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F6E4342-9CB4-4EFA-98F6-143DF9C21173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6E4342-9CB4-4EFA-98F6-143DF9C21173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6E4342-9CB4-4EFA-98F6-143DF9C21173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6E4342-9CB4-4EFA-98F6-143DF9C21173}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F6E4342-9CB4-4EFA-98F6-143DF9C21173} = {94A1FE0C-C352-49EF-A82B-A84CAC3CD78A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22631B65-3370-4B8E-9ED9-AAB298B7CA3A}
